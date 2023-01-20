@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+[![Dependencies][dependency-shield]][dependency-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+# React.js App example
+Simple quiz based on [Open Trivia Quiz API](https://opentdb.com/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Built With
 
-In the project directory, you can run:
+* [![Javascript][Javascript.io]][Javascript-url]
+* [![React][React.io]][React-url]
+* [![Babel][Babel.io]][Babel-url]
+* [![Redux][Redux.io]][Redux-url]
+* [![NodeJs][NodeJs.io]][NodeJs-url]
 
-### `npm start`
+## Pre-installations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Npm install:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm test`
+#### Reactstrap install:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```sh
+  npm install reactstrap bootstrap
+  ```
 
-### `npm run build`
+#### Clone the repo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/Lesash13/react_quiz_app.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Build:
+The build artifacts will be stored in the `build` directory.
 
-### `npm run eject`
+``` sh
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Generate new component:
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+ng generate component component-name
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Development server:
+Navigate to `http://localhost:3000/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- MARKDOWN LINKS & IMAGES -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[dependency-shield]: https://img.shields.io/badge/Dependency_Graph-darkgreen?style=for-the-badge
 
-### Code Splitting
+[dependency-url]: https://github.com/Lesash13/react_quiz_app/network/dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=darkblue
 
-### Analyzing the Bundle Size
+[linkedin-url]: https://www.linkedin.com/in/victoriya-mitrofanova-96839278/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Javascript.io]: https://img.shields.io/badge/-Javascript-lightyellow?style=for-the-badge&logo=javascript
 
-### Making a Progressive Web App
+[Javascript-url]: https://www.javascript.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[React.io]: https://img.shields.io/badge/React-black?style=for-the-badge&logo=react
 
-### Advanced Configuration
+[React-url]: https://reactjs.org/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Babel.io]: https://img.shields.io/badge/-Babel-lightgrey?style=for-the-badge&logo=babel
 
-### Deployment
+[Babel-url]:https://babeljs.io/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Redux.io]: https://img.shields.io/badge/-Redux-blueviolet?style=for-the-badge&logo=redux
 
-### `npm run build` fails to minify
+[Redux-url]: https://redux.js.org/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[NodeJs.io]: https://img.shields.io/badge/-Node.js-green?style=for-the-badge&logo=Node.js
+
+[NodeJs-url]: https://nodejs.org/en/
