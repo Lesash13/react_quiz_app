@@ -2,7 +2,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # React.js App example
-Simple quiz based on [Open Trivia Quiz API](https://opentdb.com/)
+Simple quiz based on [Open Trivia Quiz API](https://opentdb.com/).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Built With
