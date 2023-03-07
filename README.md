@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * [![Javascript][Javascript.io]][Javascript-url]
 * [![React][React.io]][React-url]
-* [![Babel][Babel.io]][Babel-url]
 * [![Redux][Redux.io]][Redux-url]
 * [![NodeJs][NodeJs.io]][NodeJs-url]
 
@@ -74,10 +73,6 @@ npm start
 [React.io]: https://img.shields.io/badge/React-black?style=for-the-badge&logo=react
 
 [React-url]: https://reactjs.org/
-
-[Babel.io]: https://img.shields.io/badge/-Babel-lightgrey?style=for-the-badge&logo=babel
-
-[Babel-url]:https://babeljs.io/
 
 [Redux.io]: https://img.shields.io/badge/-Redux-blueviolet?style=for-the-badge&logo=redux
 
