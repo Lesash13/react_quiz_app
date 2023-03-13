@@ -5,6 +5,8 @@
 Simple quiz based on [Open Trivia Quiz API](https://opentdb.com/).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![img.png](img.png)
+
 ### Built With
 
 * [![Javascript][Javascript.io]][Javascript-url]
@@ -19,6 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ```sh
   npm install npm@latest -g
   ```
+```sh
+npm install react-scripts --save
+```
 
 #### Reactstrap install:
 
