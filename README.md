@@ -1,7 +1,7 @@
 [![Dependencies][dependency-shield]][dependency-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# React.js App example
+# Quiz React App
 Simple quiz based on [Open Trivia Quiz API](https://opentdb.com/).
 
 ![img.png](img.png)
